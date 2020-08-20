@@ -63,7 +63,7 @@ body {
 .search-input {
     font-size: 1rem;
     border: none;
-    padding: 0.8rem 2rem 0.8rem 3rem;
+    padding: 0.8rem 0.5rem 0.8rem 3rem;
     border-radius: 100px;
     width: 90%;
     transition: all 0.2s;
@@ -80,7 +80,7 @@ body {
 
 .submit-btn, .voice-search {
     border: none;
-    /* background: red; */
+    background: none;
 }
 .submit-btn, .voice-search:focus {
     outline: none;
@@ -88,9 +88,18 @@ body {
 .submit-btn, .voice-search:active {
     transform: translateY(2px);
 }
-.search-icon, .mic {
-    height: 2rem;
-    width: 2rem;
+.search-icon {
+    height: 1.2rem;
+    width: 1.2rem;
+    position: relative;
+    right: 0.8rem;
+    filter: invert(52%) sepia(0%) saturate(810%) hue-rotate(145deg) brightness(96%) contrast(81%);
+}
+.mic {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    left: 1rem;
 }
 
 .gallery-info {
