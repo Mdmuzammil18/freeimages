@@ -80,7 +80,7 @@ body {
 
 .submit-btn, .voice-search {
     border: none;
-    background: red;
+    /* background: red; */
 }
 .submit-btn, .voice-search:focus {
     outline: none;
